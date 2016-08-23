@@ -37,13 +37,11 @@ Version: 1
 ## Credits
 
 `AndroidExample_UI_Spinner` is a companion Android app for the **Udacity** course [Build < anything > in Android](https://www.udacity.com/course/how-to-create-anything-in-android--ud802).
-<br></br>
+
   - This sample is based on a **tutorial** found [here](https://www.learn2crack.com/2013/12/android-spinner-dropdown-example.html).
-<br>
   - See also: **Codepath Cliffnotes** for a short guide on [some of the most popular Android framework UI widgets](http://guides.codepath.com/android/Working-with-Input-Views).
-<br>
   - And here's a link to a curated list of some of the [most popular open source widgets](https://github.com/wasabeef/awesome-android-ui).
-<br>
+  - A very special "Thanks, man!" goes to [Andres Q.](http://stackoverflow.com/users/4556980/andres-q) who has posted a really elegant solution to the dreaded problem that the `onItemSelected()` event was **fired twice** upon device rotation. (see [this](http://stackoverflow.com/questions/14560733/spinners-onitemselected-callback-called-twice-after-a-rotation-if-non-zero-posi) stackoverflow.com question).
   - And last but not least: The **template** for this **README.md** file comes from [zenorocha](https://gist.github.com/zenorocha/4526327).
 
 ## License
