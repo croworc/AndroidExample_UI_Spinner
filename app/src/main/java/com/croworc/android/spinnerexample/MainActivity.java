@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         // Remove both listeners as not to leak the activity.
         mSpinner.setOnTouchListener(null);
         mSpinner.setOnItemSelectedListener(null);
-        Log.d(LOG_TAG, "in method onDestroy(): both listeners were removed");
+        // Log.d(LOG_TAG, "in method onDestroy(): both listeners were removed");
     }
 
 
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                 String msg = "Celebrity name via array: " + celebrity_by_arrayIdx + "\n"
                         +    "Celebrity name via method 'getItemAtPosition(): '"
                         +    celebrity_by_adapterPosition;
-                Toast.makeText(mContext, msg, Toast.LENGTH_SHORT).show();
+                // Toast.makeText(mContext, msg, Toast.LENGTH_SHORT).show();
 
                 mHasUserSelected = false; // Don't forget to reset the flag for the next click / rotation.
             } // end if(mHasUserSelected)
