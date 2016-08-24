@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
-    private Context context = this;
+    private Context mContext = this;
     private Spinner mSpinner;
 
     String[] mCelebrities = {
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                 String msg = "Celebrity name via array: " + celebrity_by_arrayIdx + "\n"
                         +    "Celebrity name via method 'getItemAtPosition(): '"
                         +    celebrity_by_adapterPosition;
-                Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, msg, Toast.LENGTH_SHORT).show();
 
                 mHasUserSelected = false; // Don't forget to reset the flag for the next click / rotation.
             } // end if(mHasUserSelected)
